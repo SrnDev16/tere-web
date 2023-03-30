@@ -1,0 +1,87 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    width: 1440px;
+    height: 174px;
+    background-color: #ffffff;
+    padding: 80px 87px 80px 34px;
+}
+.logo {
+    width: 180px;
+    height: 51px;
+}
+.menu>a {
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+    font-family: 'Gilroy-light', sans-serif;
+    font-size: 17.16px;
+    font-weight: 500;
+}
+.menu>:first-child {
+    position: absolute;
+    top: 102px;
+    left: 771px;
+}
+.menu>:nth-child(2) {
+    position: absolute;
+    top: 102px;
+    left: 864px;
+}
+.menu>:nth-child(3) {
+    position: absolute;
+    top: 102px;
+    left: 1030px;
+}
+.menu>:last-child {
+    position: absolute;
+    height: 50px;
+    width: 182px;
+    left: 1178px;
+    top: 87px;
+    border-radius: 5.952381134033203px;
+    border: none;
+    font-family: 'Gilroy-bold', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #ffffff;
+    background-color: #75BF7A;
+    cursor: pointer;
+}
+.container {
+    background-color: #F9F9F9;
+    height: 100vh;
+}
+.left-details> :first-child {
+    outline: 1px solid #000000;
+    position: absolute;
+    height: 198px;
+    width: 557px;
+    left: 80px;
+    top: 337px;
+    font-family: 'Gilroy-bold', sans-serif;
+    font-weight: 800;
+    Font-size: 60.73px;
+    Line-height: 65.91px;
+    vertical-align: Top;
+}
+.left-details>:nth-child(2){
+    position: absolute;
+    top: 562px;
+    left: 80px;
+    width: 550px;
+    height: 120px;
+    Font-family: 'Gilroy-light', sans-serif;;
+    Font-style: Medium;
+    Font-size: 24px;
+    Line-height: 28px;
+    align-items: Left;
+    Vertical-align: Top;
+     color: #9E9DA2;
+}
