@@ -6,7 +6,6 @@
     padding: 0px;
     font-family: 'Gilroy-Light', sans-serif;
 }
-
 nav {
     width: 1440px;
     height: 174px;
@@ -15,14 +14,12 @@ nav {
     justify-content: space-between;
     padding: 85px 80px 37px 80px;
 }
-
 .link {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
     align-items: center;
 }
-
 .link a {
     text-decoration: none;
     margin-right: 47px;
@@ -30,7 +27,6 @@ nav {
     font-size: 17.16px;
     font-weight: 500px;
 }
-
 .helpBtn {
     height: 50px;
     width: 182px;
@@ -38,59 +34,56 @@ nav {
     color: #FFFFFF;
     background-color: #75BF7A;
     text-align: center;
+    cursor: pointer;
     border: none;
     font-size: 22px;
     font-weight: 600px;
 }
-
 header {
     display: flex;
     padding-top: 51px;
+    background-color: #F9F9F9;
 }
-
 .info {
     width: 557px;
     margin: 102px 80px 0px 80px;
     display: flex;
     flex-direction: column;
 }
-
 .title {
     width: 557px;
     height: 198px;
 }
-
 .title h1 {
     font-size: 60.73px;
     font-weight: 800;
     line-height: 65.91px;
     color: #000000;
+    letter-spacing: 0rem;
 }
-
 .detail {
     width: 550px;
     height: 120px;
     margin-top: 25px;
 }
-
 .detail p {
     font-size: 24px;
     font-weight: 500;
     line-height: 28px;
     color: #9E9DA2;
 }
-
 .download {
     margin-top: 60px;
     display: flex;
     justify-content: space-between;
 }
-
 .btnDownload {
     background-color: #000000;
     color: #FFFFFF;
     width: 260px;
     height: 66.77px;
+    font-size: 24.6px;
+    font-weight: 800;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -103,7 +96,88 @@ header {
     width: 45px;
     margin-right: 10px;
 }
-.pic1 img{
+.pic1 img {
     width: 553px;
     height: 582.81px;
+}
+main {
+    background-color: #F9F9F9;
+    padding-top: 85px;
+}
+.search-box {
+    background-color: #75BF7A;
+    border-radius: 10px;
+    margin: 0px 80px;
+    width: 1280px;
+    height: 166px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 72px;
+}
+.text-download {
+    color: #FFFFFF;
+    width: 246px;
+    height: 56px;
+    font-family: Gilroy;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.search input {
+    border: none;
+    width: 499px;
+    height: 67px;
+    color: #000000;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 4.39px;
+    padding-left: 33px;
+}
+
+.search input::placeholder {
+    color: #DADADA;
+}
+.search button {
+    border: none;
+    background-color: #000000;
+    color: #FFFFFF;
+    margin-left: 11px;
+    width: 260px;
+    height: 67px;
+    border-radius: 4.392971038818359px;
+    font-size: 22px;
+    font-weight: 800;
+
+}
+.how {
+    margin-top: 127px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.how h1 {
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0em;
+}
+.how h1 span {
+    color: #75BF7A;
+}
+.how div{
+    width: 620px;
+    height: 96px;
+    margin-top: 25px;
+}
+.how div p {
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #9E9DA2;
 }
