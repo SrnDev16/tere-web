@@ -242,18 +242,26 @@ main {
 }
 
 .main-content {
+    height: 700px;
     display: flex;
     justify-content: center;
     align-content: center;
     margin-top: 63px;
-    height: 100vh;
 }
-.box1 h3, .box2 h3 , .box3 h3 , .box4 h3{
+
+.box1 h3,
+.box2 h3,
+.box3 h3,
+.box4 h3 {
     font-size: 22px;
     font-weight: 800;
     padding: 18px 0px;
 }
-.box1 p, .box2 p , .box3 p , .box4 p{
+
+.box1 p,
+.box2 p,
+.box3 p,
+.box4 p {
     font-size: 20px;
     font-weight: 500;
     color: #9E9DA2;
@@ -266,33 +274,127 @@ main {
     justify-content: center;
     align-items: end;
     text-align: end;
-    margin-right: 40px ;
+    margin-right: 40px;
 }
-.box2 , .box4{
+
+.box2,
+.box4 {
     margin-left: 40px;
 }
-.box3{
+
+.box3 {
     margin-top: 45px;
 }
+
 .box4 {
     margin-top: 74px;
 }
-.indicater{
+
+.indicater {
     display: flex;
     position: absolute;
     top: 600px;
     left: 163px;
 }
-.curcle1{
+
+.curcle1 {
     width: 12.77px;
     height: 12.77px;
     border-radius: 100%;
     background-color: #75BF7A;
 }
-.curcle2, .curcle3 ,.curcle4{
+
+.curcle2,
+.curcle3,
+.curcle4 {
     width: 12.77px;
     height: 12.77px;
     border-radius: 100%;
     margin-left: 5.26px;
-    background-color: #75BF7A50; 
+    background-color: #75BF7A50;
+}
+
+.benefit h1 {
+    font-size: 46.39px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.benefit h1 span {
+    color: #75BF7A;
+}
+
+.flexible {
+    display: flex;
+    justify-content: space-between;
+    width: 1060px;
+    height: 304px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 52px;
+    margin-left: 145px;
+
+}
+
+.working-hours div {
+    display: flex;
+    justify-content: start;
+    margin: 73px 0px 0px 38px;
+}
+
+.working-hours div h2 {
+    font-size: 88px;
+    color: #75BF7A;
+}
+
+.working-hours div p {
+    font-size: 33.94px;
+    color: #000000;
+    margin: 10px 0px 0px 39px;
+}
+.flexible p {
+    font-size: 22px;
+    color: #9E9DA2;
+    margin : 20px 0px 0px 46px
+}
+.flexible img{
+    width: 256.79px;
+    height: 254.82px;
+    margin : 25px 110px 25px 0px;
+}
+.Earnings{
+    display: flex;
+    justify-content: space-between;
+    width: 1060px;
+    height: 304px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 52px;
+    margin-left: 230px;
+}
+.Earnings img{
+    width: 246px;
+    height: 226.21px;
+    margin : 39px 0px 0px 110px;
+}
+.earn02 div{
+    display: flex;
+    justify-content: space-between;
+    margin: 90px 160px 0px 0px;
+}
+.earn02 div h2 {
+    font-size: 88px;
+    color: #75BF7A;
+}
+
+.earn02 div p {
+    font-size: 33.94px;
+    color: #000000;
+    margin: 10px 0px 0px 39px;
+}
+.Earnings p {
+    font-size: 22px;
+    color: #9E9DA2;
+    margin : 20px 0px 0px 0px;
 }
