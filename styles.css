@@ -6,6 +6,7 @@
     padding: 0px;
     font-family: 'Gilroy-Light', sans-serif;
 }
+
 nav {
     width: 1440px;
     height: 174px;
@@ -14,12 +15,14 @@ nav {
     justify-content: space-between;
     padding: 85px 80px 37px 80px;
 }
+
 .link {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
     align-items: center;
 }
+
 .link a {
     text-decoration: none;
     margin-right: 47px;
@@ -27,6 +30,7 @@ nav {
     font-size: 17.16px;
     font-weight: 500px;
 }
+
 .helpBtn {
     height: 50px;
     width: 182px;
@@ -39,21 +43,25 @@ nav {
     font-size: 22px;
     font-weight: 600px;
 }
+
 header {
     display: flex;
     padding-top: 51px;
     background-color: #F9F9F9;
 }
+
 .info {
     width: 557px;
     margin: 102px 80px 0px 80px;
     display: flex;
     flex-direction: column;
 }
+
 .title {
-    width: 557px;
+    width: 620px;
     height: 198px;
 }
+
 .title h1 {
     font-size: 60.73px;
     font-weight: 800;
@@ -61,22 +69,26 @@ header {
     color: #000000;
     letter-spacing: 0rem;
 }
+
 .detail {
     width: 550px;
     height: 120px;
     margin-top: 25px;
 }
+
 .detail p {
     font-size: 24px;
     font-weight: 500;
     line-height: 28px;
     color: #9E9DA2;
 }
+
 .download {
     margin-top: 60px;
     display: flex;
     justify-content: space-between;
 }
+
 .btnDownload {
     background-color: #000000;
     color: #FFFFFF;
@@ -91,19 +103,23 @@ header {
     align-items: center;
     justify-content: center;
 }
+
 .btnDownload img {
     height: 39.8863639831543px;
     width: 45px;
     margin-right: 10px;
 }
+
 .pic1 img {
     width: 553px;
     height: 582.81px;
 }
+
 main {
     background-color: #F9F9F9;
     padding-top: 85px;
 }
+
 .search-box {
     background-color: #75BF7A;
     border-radius: 10px;
@@ -115,6 +131,7 @@ main {
     align-items: center;
     padding: 0px 72px;
 }
+
 .text-download {
     color: #FFFFFF;
     width: 246px;
@@ -126,6 +143,7 @@ main {
     letter-spacing: 0em;
     text-align: left;
 }
+
 .search input {
     border: none;
     width: 499px;
@@ -141,6 +159,7 @@ main {
 .search input::placeholder {
     color: #DADADA;
 }
+
 .search button {
     border: none;
     background-color: #000000;
@@ -151,28 +170,33 @@ main {
     border-radius: 4.392971038818359px;
     font-size: 22px;
     font-weight: 800;
-
+    cursor: pointer;
 }
+
 .how {
     margin-top: 127px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .how h1 {
     font-size: 46px;
     font-weight: 800;
     line-height: 50px;
     letter-spacing: 0em;
 }
+
 .how h1 span {
     color: #75BF7A;
 }
-.how div{
+
+.how div {
     width: 620px;
     height: 96px;
     margin-top: 25px;
 }
+
 .how div p {
     font-size: 23px;
     font-weight: 500;
@@ -180,4 +204,95 @@ main {
     letter-spacing: 0em;
     text-align: center;
     color: #9E9DA2;
+}
+
+.number {
+    position: relative;
+    width: 61.82px;
+    height: 61.82px;
+    background-image: url(/images/curcle.svg);
+    background-position: center;
+}
+
+.number h2 {
+    position: absolute;
+    top: 11px;
+    left: 22px;
+    font-size: 34.11px;
+    font-weight: 800;
+    color: #75BF7A;
+}
+
+.phone-container {
+    position: relative;
+}
+
+.bg {
+    width: 400px;
+    height: 400px;
+    background-color: #75BF7A;
+    border-radius: 100%;
+    margin-top: 63px;
+}
+
+.phone-container img {
+    position: absolute;
+    top: -21px;
+    left: 60px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 63px;
+    height: 100vh;
+}
+.box1 h3, .box2 h3 , .box3 h3 , .box4 h3{
+    font-size: 22px;
+    font-weight: 800;
+    padding: 18px 0px;
+}
+.box1 p, .box2 p , .box3 p , .box4 p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #9E9DA2;
+}
+
+.box1,
+.box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    text-align: end;
+    margin-right: 40px ;
+}
+.box2 , .box4{
+    margin-left: 40px;
+}
+.box3{
+    margin-top: 45px;
+}
+.box4 {
+    margin-top: 74px;
+}
+.indicater{
+    display: flex;
+    position: absolute;
+    top: 600px;
+    left: 163px;
+}
+.curcle1{
+    width: 12.77px;
+    height: 12.77px;
+    border-radius: 100%;
+    background-color: #75BF7A;
+}
+.curcle2, .curcle3 ,.curcle4{
+    width: 12.77px;
+    height: 12.77px;
+    border-radius: 100%;
+    margin-left: 5.26px;
+    background-color: #75BF7A50; 
 }
