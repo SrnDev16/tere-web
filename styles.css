@@ -324,6 +324,9 @@ main {
 .benefit h1 span {
     color: #75BF7A;
 }
+.benefit{
+    padding-bottom: 275px;
+}
 
 .flexible {
     display: flex;
@@ -397,4 +400,62 @@ main {
     font-size: 22px;
     color: #9E9DA2;
     margin : 20px 0px 0px 0px;
+}
+footer{
+    height: 553px;
+    width: 1440px;
+    background-color: #FFFFFF;
+}
+.footer-detail{
+    width: 1440px;
+    height: 252px;
+    border: 1px solid #d3d2d6;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.footer-detail p {
+    color: #9E9DA2;
+    font-size: 18px;
+    font-weight: 800px;
+    line-height: 21.6px;
+    padding-top: 25px;
+}
+.footer-detail:first-child{
+    padding-left: 148px;
+}
+.be-our{
+    margin-left: 94px;
+}
+.footerBtn{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+}
+.footerDownload {
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 178.51px;
+    height: 45.81px;
+    font-size: 16.89px;
+    font-weight: 800px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 41px;
+}
+.footerDownload img {
+    height: 20.52px;
+    width: 21.14px;
+    margin-right: 10px;
+}
+footer>p{
+    color: #75BF7A;
+    text-align: center;
+    margin-top: 38px;
+    font-size: 16px;
+    font-weight: 400px;
 }
